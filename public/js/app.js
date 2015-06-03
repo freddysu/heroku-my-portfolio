@@ -3,7 +3,7 @@ var model = {
 	projects: [
 		{
 			name: 'Ubike 讓我騎',
-			description: 'I was responsible for Android developement of this project while I was doing my internship in <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes the stop locations, distance and navigation to a stop from current location, the number of bikes, spaces, the estimated waiting time for a bike, timer, and even the weather infomatiom, etc. The app leveages Google Maps API and Google Street View API for providing users best services.',
+			description: 'I was responsible for Android developement of this project while I was doing my internship in <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes the stop locations, distance and navigation to a stop from current location, the number of bikes, spaces, the estimated waiting time for a bike, timer, and even the weather infomatiom, etc. The app leveages Google Maps API and Google Street View API for providing users the best service.',
 			imgSrc: 'img/ubike',
 			projectLink: 'https://play.google.com/store/apps/details?id=com.chocolabs.ubike',
 			linkImg: 'https://developer.android.com/images/brand/en_app_rgb_wo_60.png',
