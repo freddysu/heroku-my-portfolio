@@ -187,7 +187,7 @@ var portfolioModalView = {
 octopus.init(function(){
 	
 	//console.log("Dynamically loading js&css");
-	loadjscssfile("css/style.css", "css")
+	//loadjscssfile("css/style.css", "css")
 
 	function loadjscssfile(filename, filetype){
 		if (filetype=="js"){ // if filename is a external JavaScript file
