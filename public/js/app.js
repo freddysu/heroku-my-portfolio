@@ -2,8 +2,18 @@ var model = {
 	currentProject: null,
 	projects: [
 		{
+			name: 'Crawlers Monitor',
+			description: 'It\'s a crawlers monitor system which I built when I was doing my summer internship (July 2015 - Sep. 2015) in <a href="http://www.thetrigger.io/">Trigger</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain and make a GUI for monitoring and doing the operations, including signup, login/logout authentication, connecting to a target server by ssh, create/remove/list the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
+			imgSrc: 'img/monitor',
+			projectLink: null,
+			linkImg: null,
+			numOfImg: 5,
+			orientation: 'landscape',
+			achievement: ''
+		},
+		{
 			name: 'Ubike 讓我騎',
-			description: 'I was responsible for Android developement of this project while I was doing my internship in <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes the stop locations, distance and navigation to a stop from current location, the number of bikes, spaces, the estimated waiting time for a bike, timer, and even the weather infomatiom, etc. The app leveages Google Maps API and Google Street View API for providing users the best service.',
+			description: 'I was responsible for Android developement of this project while I was doing my internship (July 2013 - Jan. 2014) in <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes the stop locations, distance and navigation to a stop from current location, the number of bikes, spaces, the estimated waiting time for a bike, timer, and even the weather infomatiom, etc. The app leveages Google Maps API and Google Street View API for providing users the best service.',
 			imgSrc: 'img/ubike',
 			projectLink: 'https://play.google.com/store/apps/details?id=com.chocolabs.ubike',
 			linkImg: 'https://developer.android.com/images/brand/en_app_rgb_wo_60.png',
