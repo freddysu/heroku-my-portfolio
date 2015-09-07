@@ -3,6 +3,7 @@ var model = {
 	projects: [
 		{
 			name: 'Crawlers Monitor',
+			tag: 'JavaScript, AngularJS, NodeJS, MongoDB',
 			description: 'It\'s a crawlers monitor system which I built when I was doing my summer internship (July 2015 - Sep. 2015) in <a href="http://www.thetrigger.io/">Trigger</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain and make a GUI for monitoring and doing the operations, including signup, login/logout authentication, connecting to a target server by ssh, create/remove/list the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
 			imgSrc: 'img/monitor',
 			projectLink: null,
@@ -13,6 +14,7 @@ var model = {
 		},
 		{
 			name: 'Ubike 讓我騎',
+			tag: 'Java, Android',
 			description: 'I was responsible for Android developement of this project while I was doing my internship (July 2013 - Jan. 2014) in <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes the stop locations, distance and navigation to a stop from current location, the number of bikes, spaces, the estimated waiting time for a bike, timer, and even the weather infomatiom, etc. The app leveages Google Maps API and Google Street View API for providing users the best service.',
 			imgSrc: 'img/ubike',
 			projectLink: 'https://play.google.com/store/apps/details?id=com.chocolabs.ubike',
@@ -22,7 +24,8 @@ var model = {
 			achievement: '<ul><li>Wins the 11th Public Departmental Resources Application Award hosted by Industrial Development Bureau, MOEA</li><li>Downloads: 50,000 ~ 100,000</li></ul>'
 		},
 		{
-			name: 'MAM (Mobile Application Management)',
+			name: 'Mobile Application Management',
+			tag: 'JavaScript, Python, NodeJS, Neo4j',
 			description: 'This is a system based on client-server architecture and graph database to analyze the capability of each application. Starting from the configuration extractor in mobile device, first step is to extract APKs and system information and upload to server through web server Rest API interface. After a bunch of APK decompiling, analysis and parsing tasks, the information is organized and structured in configuration graph database. Finally, our system reports the device configuration information and potential vulnerability back to the user. The web server, APKs analyser, graph database are implemented by NodeJS, Python and Neo4j respectively.',
 			imgSrc: 'img/mam',
 			projectLink: null,
@@ -33,6 +36,7 @@ var model = {
 		},
 		{
 			name: 'Hoppa Ellie',
+			tag: 'C#, Unity3D', 
 			description: 'This is our game project from Software Engineering Process at Chalmer University of Technology. This game is built by Unity3D engine version 5.01. In this game, the player control the role, Ellie, to explore the world and reach the end goal. Hoppa Ellie is similar to SuperMario. The main difference is that player is not allow to stop Ellie from running but can only make Ellie jump over all the dangers coming to her.',
 			imgSrc: 'img/hoppa',
 			projectLink: null,
@@ -97,8 +101,9 @@ var projectListView = {
 	  					</a> \
 	  				</div> \
 	  				<div class="col-md-10"> \
-		  				<h4 class="project-name">' + project.name + '</h4> \
-		  				<span class="project-description">' + project.description + project.achievement + '</span> \
+		  				<span class="project-name">' + project.name + '</span> \
+		  				<span class="project-tag"> - ' + project.tag + '</span> \
+		  				<div class="project-description">' + project.description + project.achievement + '</div> \
 	  				</div> \
 	  			</div>'
 			
