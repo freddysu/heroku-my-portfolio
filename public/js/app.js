@@ -2,9 +2,31 @@ var model = {
 	currentProject: null,
 	projects: [
 		{
+			name: 'Arcade Web',
+			tag: 'JavaScript, React, Redux',
+			description: 'The arcade web provides Omlet users for viewing their own posts including screenshots and videos uploaded from <a href=https://play.google.com/store/apps/details?id=mobisocial.arcade&hl=zh_TW>Omlet Arcade</a>, which is a live streaming and game recording app for mobile devices. It also provides users the hottest and latest posts from other game players. The arcade web is a product that I developed with another colleague while I was working at <a href="https://arcade.omlet.me/">Omlet Inc.</a> and is implemented by React & Redux.',
+			imgSrc: 'img/arcadeweb',
+			projectLink: null,
+			linkImg: null,
+			numOfImg: 5,
+			orientation: 'landscape',
+			achievement: ''
+		},
+		{
+			name: 'Autotest Tool',
+			tag: 'JavaScript, React, NodeJS, MongoDB, Calabash, Cucumber',
+			description: 'The autotest tool helps our QA run <a href="http://calaba.sh/">Calabash</a> testings on multiple devices simultaneously without knowing the Calabash commands. It makes our QA to be more efficient at running commands and reviewing the test reports by providing a friendly web UI interface. I was responsible for this project at <a href="https://arcade.omlet.me/">Omlet Inc</a>.',
+			imgSrc: 'img/autotest',
+			projectLink: null,
+			linkImg: null,
+			numOfImg: 5,
+			orientation: 'landscape',
+			achievement: ''
+		},
+		{
 			name: 'Crawlers Monitor',
 			tag: 'JavaScript, AngularJS, NodeJS, MongoDB',
-			description: 'It\'s a crawlers monitor system which I built when I was doing my summer internship (July 2015 - Sep. 2015) in <a href="http://www.thetrigger.io/">Trigger</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain and make a GUI for monitoring and doing the operations, including signup, login/logout authentication, connecting to a target server by ssh, create/remove/list the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
+			description: 'It\'s a crawlers monitor system which I built when I was doing my summer internship (July 2015 - Sep. 2015) at <a href="http://www.thetrigger.io/">MobiusBobs Inc</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain and make a GUI for monitoring and doing the operations, including signup, login/logout authentication, connecting to a target server by ssh, create/remove/list the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
 			imgSrc: 'img/monitor',
 			projectLink: null,
 			linkImg: null,
