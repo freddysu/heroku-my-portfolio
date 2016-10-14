@@ -26,7 +26,7 @@ var model = {
 		{
 			name: 'Crawlers Monitor',
 			tag: 'JavaScript, AngularJS, NodeJS, MongoDB',
-			description: 'It\'s a crawlers monitor system which I built when I was doing my summer internship (July 2015 - Sep. 2015) at <a href="http://www.thetrigger.io/">MobiusBobs Inc</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain and make a GUI for monitoring and doing the operations, including signup, login/logout authentication, connecting to a target server by ssh, create/remove/list the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
+			description: 'It\'s a crawlers monitor system which I built when I was doing my summer internship (July 2015 - Sep. 2015) at <a href="http://www.thetrigger.io/">MobiusBobs</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain and provide a GUI for monitoring and doing the operations, including signup, login/logout authentication, connecting to a target server by ssh, creating/removing/listing the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
 			imgSrc: 'img/monitor',
 			projectLink: null,
 			linkImg: null,
@@ -37,7 +37,7 @@ var model = {
 		{
 			name: 'Ubike 讓我騎',
 			tag: 'Java, Android',
-			description: 'I was responsible for Android developement of this project while I was doing my internship (July 2013 - Jan. 2014) in <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes the stop locations, distance and navigation to a stop from current location, the number of bikes, spaces, the estimated waiting time for a bike, timer, and even the weather infomatiom, etc. The app leveages Google Maps API and Google Street View API for providing users the best service.',
+			description: 'I was responsible for Android developement of this project while I was doing my internship (July 2013 - Jan. 2014) at <a href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes stop locations, distances, number of bikes, spaces, estimated waiting time for a bike, timer, and the navigation from the current location to a stop, etc. The app leveages Google Maps and Google Street View API to provide users the best service.',
 			imgSrc: 'img/ubike',
 			projectLink: 'https://play.google.com/store/apps/details?id=com.chocolabs.ubike',
 			linkImg: 'https://developer.android.com/images/brand/en_app_rgb_wo_60.png',
@@ -48,7 +48,7 @@ var model = {
 		{
 			name: 'Mobile Application Management',
 			tag: 'JavaScript, Python, NodeJS, Neo4j',
-			description: 'This is a system based on client-server architecture and graph database to analyze the capability of each application. Starting from the configuration extractor in mobile device, first step is to extract APKs and system information and upload to server through web server Rest API interface. After a bunch of APK decompiling, analysis and parsing tasks, the information is organized and structured in configuration graph database. Finally, our system reports the device configuration information and potential vulnerability back to the user. The web server, APKs analyser, graph database are implemented by NodeJS, Python and Neo4j respectively.',
+			description: 'This is a system based on the client-server architecture and a graph database to analyze the capability of each application in a mobile device. The configuration extractor installed in the mobile device extracts APKs and system information, and uploads them to the server via web server Rest API interface. After a series of APK decompiling, analysis and parsing tasks, the information is organized and structured in the configuration graph database. Lastly, our system reports the device configuration information and potential vulnerabilities back to the user. The web server, APKs analyser, graph database are implemented by NodeJS, Python and Neo4j respectively.',
 			imgSrc: 'img/mam',
 			projectLink: null,
 			linkImg: null,
