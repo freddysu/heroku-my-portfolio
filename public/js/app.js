@@ -4,7 +4,7 @@ var model = {
 		{
 			name: 'Arcade Web',
 			tag: 'JavaScript, React, Redux',
-			description: 'The arcade web provides Omlet users for viewing their own posts including screenshots and videos uploaded from <a href=https://play.google.com/store/apps/details?id=mobisocial.arcade&hl=zh_TW>Omlet Arcade</a>, which is a live streaming and game recording app for mobile devices. It also provides users the hottest and latest posts from other game players. The arcade web is a product that I developed with another colleague while I was working at <a href="https://arcade.omlet.me/">Omlet Inc.</a> and is implemented by React & Redux.',
+			description: 'Arcade web provides Omlet users for viewing their own posts including screenshots and videos uploaded from <a href=https://play.google.com/store/apps/details?id=mobisocial.arcade&hl=zh_TW>Omlet Arcade</a>, which is a live streaming and game recording app for mobile devices. It also provides users the hottest and latest posts from other game players. Arcade web is a product that I developed with my colleague while I was working at <a href="https://arcade.omlet.me/">Omlet Inc.</a> and is implemented by React & Redux.',
 			imgSrc: 'img/arcadeweb',
 			projectLink: null,
 			linkImg: null,
@@ -13,9 +13,9 @@ var model = {
 			achievement: ''
 		},
 		{
-			name: 'Autotest Tool',
+			name: 'Automated Testing System',
 			tag: 'JavaScript, React, NodeJS, MongoDB, Calabash, Cucumber',
-			description: 'The autotest tool helps our QA run <a href="http://calaba.sh/">Calabash</a> testings on multiple devices simultaneously without knowing the Calabash commands. It makes our QA to be more efficient at running commands and reviewing the test reports by providing a friendly web UI interface. I was responsible for this project at <a href="https://arcade.omlet.me/">Omlet Inc</a>.',
+			description: 'The system helps our QA run <a href="http://calaba.sh/">Calabash</a> testing on multiple devices simultaneously without knowing the Calabash commands. It makes our QA to be more efficient at running commands and reviewing the test reports by providing a friendly web UI. I was responsible for this project at <a href="https://arcade.omlet.me/">Omlet Inc</a>.',
 			imgSrc: 'img/autotest',
 			projectLink: null,
 			linkImg: null,
