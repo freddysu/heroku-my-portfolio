@@ -210,7 +210,7 @@ var portfolioModalView = {
 
 		for (var i = 0; i < project.numOfImg; i++){
 			modalStr +=    '<article> \
-								<img class="img-responsive" src="' + project.imgSrc + i + '.png" alt=""> \
+								<img class="img-responsive" src="' + project.imgSrc + i + '.jpg" alt=""> \
 							</article>';
 		}		
 		console.log(modalStr);
