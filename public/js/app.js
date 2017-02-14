@@ -184,20 +184,17 @@ var portfolioModalView = {
 
 		this.closeModalElem = document.getElementById('close-modal');
 		this.closeModalElem.addEventListener('click', function(){
-			document.getElementById('slide1').checked = true;
-			document.getElementById('slide2').checked = false;
-			document.getElementById('slide3').checked = false;
-			document.getElementById('slide4').checked = false;
-			document.getElementById('slide5').checked = false;
+			this.resetSlides();
 		});
 	},
 
-	render: function(){
+	render: function(){  
 		var modalStr = '';
 		var project = octopus.getCurrentProject();
 		var inputElem, labelElem;
 
 		this.innerElem.innerHTML = '';
+    this.resetSlides();
 		
 		if (project.orientation == 'portrait'){
 			this.modalContentElem.className = 'modal-content';
@@ -218,7 +215,15 @@ var portfolioModalView = {
 		}		
 		console.log(modalStr);
 		this.innerElem.innerHTML = modalStr;
-	}
+	},
+
+  resetSlides: function() {
+    document.getElementById('slide1').checked = true;
+    document.getElementById('slide2').checked = false;
+    document.getElementById('slide3').checked = false;
+    document.getElementById('slide4').checked = false;
+    document.getElementById('slide5').checked = false;
+  }
 }
 
 octopus.init(function(){
