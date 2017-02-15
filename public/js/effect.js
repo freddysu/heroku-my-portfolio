@@ -12,7 +12,7 @@ $(function() {
             scrollTop: $($anchor.attr('href')).offset().top
         }, 800, 'easeInOutExpo');
         event.preventDefault();
-    });
+    });    
 });
 
 // Highlight the top nav as scrolling occurs
@@ -23,4 +23,10 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
+});
+
+$(document).ready(function(){
+  $('.project-description a').on('click', function(e) {
+    e.stopPropagation();
+  });  
 });

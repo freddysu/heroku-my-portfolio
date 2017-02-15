@@ -111,16 +111,9 @@ var projectListView = {
 			project = projects[i];
 
 			rowStr = '<li> \
-	  			<div class="row"> \
+	  			<div class="row project-row" href="#portfolioModal" class="portfolio-link" data-toggle="modal"> \
 	  				<div class="col-md-2 portfolio-item"> \
-		  				<a href="#portfolioModal" class="portfolio-link" data-toggle="modal"> \
-	  						<div class="caption"> \
-	  							<div class="caption-content"> \
-	  								<i class="fa fa-search-plus fa-3x"></i> \
-	  							</div> \
-	  						</div> \
-	  						<img id="project-img" class="portfolio-img img-responsive" src="' + project.imgSrc + '.png' + '"> \
-	  					</a> \
+  						<img id="project-img" class="portfolio-img img-responsive" src="' + project.imgSrc + '.png' + '"> \
 	  				</div> \
 	  				<div class="col-md-10"> \
 		  				<span class="project-name">' + project.name + '</span> \
@@ -143,7 +136,7 @@ var projectListView = {
 
 			newProjectRow = this.createElement(rowStr);
 			
-			elem = newProjectRow.getElementsByTagName("a")[0];
+			elem = newProjectRow.getElementsByClassName("project-row")[0];
 			elem.addEventListener('click', (function(projectCopy){
 				return function(){
 					octopus.setCurrentProject(projectCopy);
@@ -183,9 +176,6 @@ var portfolioModalView = {
 		this.slideRightElem = document.getElementById('slide-right');
 
 		this.closeModalElem = document.getElementById('close-modal');
-		this.closeModalElem.addEventListener('click', function(){
-			this.resetSlides();
-		});
 	},
 
 	render: function(){  
@@ -213,7 +203,7 @@ var portfolioModalView = {
 								<img class="img-responsive" src="' + project.imgSrc + i + '.jpg" alt=""> \
 							</article>';
 		}		
-		console.log(modalStr);
+		// console.log(modalStr);
 		this.innerElem.innerHTML = modalStr;
 	},
 

@@ -234,7 +234,7 @@ hr.primary {
 	position: relative;
 	margin: 0 auto;
 	max-width: 400px;
-}
+} 
 #projects .portfolio-item .portfolio-link .caption {
 	position: absolute;
 	width: 100%;
@@ -276,7 +276,15 @@ hr.primary {
 	list-style: disc;
 	color: #444;
 }
-#project-list li > hr {
+#project-list .row {
+	padding: 10px;
+	border-radius: 10px;
+}
+#project-list .row:hover {
+	cursor: pointer;
+	background-color: #F3F3F3;
+}
+#project-list li > hr {	
 	margin: 30px auto;
 }
 
