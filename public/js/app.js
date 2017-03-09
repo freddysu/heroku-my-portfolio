@@ -111,11 +111,11 @@ var projectListView = {
 			project = projects[i];
 
 			rowStr = '<li> \
-	  			<div class="row project-row" href="#portfolioModal" class="portfolio-link" data-toggle="modal"> \
+	  			<div class="row project-row" data-target="#portfolioModal" class="portfolio-link" data-toggle="modal"> \
 	  				<div class="col-md-2 portfolio-item"> \
   						<img id="project-img" class="portfolio-img img-responsive" src="' + project.imgSrc + '.png' + '"> \
 	  				</div> \
-	  				<div class="col-md-10"> \
+	  				<div class="col-md-10 unselectable"> \
 		  				<span class="project-name">' + project.name + '</span> \
 		  				<span class="project-tag"> - ' + project.tag + '</span> \
 		  				<div class="project-description">' + project.description + project.achievement + '</div> \
