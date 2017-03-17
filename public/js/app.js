@@ -4,7 +4,7 @@ var model = {
 		{
 			name: 'Arcade Web',
 			tag: 'JavaScript, React, Redux',
-			description: 'Arcade web provides Omlet users for viewing their own posts including screenshots and videos uploaded from <a target="_blank" href=https://play.google.com/store/apps/details?id=mobisocial.arcade&hl=zh_TW>Omlet Arcade</a>, which is a live streaming and game recording app for mobile devices. It also provides users the hottest and latest posts from other game players. I was in charge of the front-end developement of Arcade web with my colleague while working at <a target="_blank" href="https://arcade.omlet.me/">Omlet Inc.</a> and is implemented by React & Redux.',
+			description: 'Arcade web provides Omlet users for viewing their own posts including screenshots and videos uploaded from <a target="_blank" href=https://play.google.com/store/apps/details?id=mobisocial.arcade&hl=zh_TW>Omlet Arcade</a>, which is a live streaming and game recording app for mobile devices. It also provides users the hottest and latest posts from other game players. I was in charge of the front-end development of Arcade web with my colleague while working at <a target="_blank" href="https://arcade.omlet.me/">Omlet Inc.</a> and is implemented by React & Redux.',
 			imgSrc: 'img/arcadeweb',
 			projectLink: null,
 			linkImg: null,
