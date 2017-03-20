@@ -15,7 +15,7 @@ var model = {
 		{
 			name: 'Automated Testing System',
 			tag: 'JavaScript, React, NodeJS, MongoDB, Calabash, Cucumber',
-			description: 'The system helps our QA to run <a target="_blank" href="http://calaba.sh/">Calabash</a> testing on multiple devices simultaneously without knowing the Calabash commands. It makes our QA to be more efficient at running commands and reviewing the test reports by providing a friendly web UI. I was responsible for this project at <a target="_blank" href="https://arcade.omlet.me/">Omlet Inc</a>.',
+			description: 'The system helps our QA to run <a target="_blank" href="http://calaba.sh/">Calabash</a> testing on multiple devices simultaneously without knowing the Calabash commands. It makes QA to be more efficient at running commands and reviewing the test reports by providing a friendly web UI. I was responsible for this project at <a target="_blank" href="https://arcade.omlet.me/">Omlet Inc</a>.',
 			imgSrc: 'img/autotest',
 			projectLink: null,
 			linkImg: null,
@@ -26,7 +26,7 @@ var model = {
 		{
 			name: 'Crawlers Monitor',
 			tag: 'JavaScript, AngularJS, NodeJS, MongoDB',
-			description: 'It\'s a crawlers monitor system I built by the time I was doing my summer internship (July 2015 - Sep. 2015) at <a target="_blank" href="http://www.thetrigger.io/">MobiusBobs</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain of operating and monitoring crawlers by providing a web UI. Operations includes signup, login/logout authentication, connecting to a target server by ssh, creating/removing/listing the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
+			description: 'It\'s a crawlers monitor system I built by the time I was doing my summer internship (July 2015 - Sep. 2015) at <a target="_blank" href="http://www.thetrigger.io/">MobiusBobs</a>. Since we have lots of crawlers need to manage, it\'s really inconvenient to do all the operations with shell commands. The purpose of this system is to ease the pain of operating and monitoring crawlers by providing a web UI. Operations include signup, login/logout authentication, connecting to a target server by ssh, creating/removing/listing the crawlers, doing git pull/checkout, etc. The system is implemented by MEAN (MongoDB, Express, AngularJS, NodeJS).',
 			imgSrc: 'img/monitor',
 			projectLink: null,
 			linkImg: null,
@@ -35,9 +35,9 @@ var model = {
 			achievement: ''
 		},
 		{
-			name: 'Ubike 讓我騎',
+			name: 'Let\'s Ubike (Ubike 讓我騎)',
 			tag: 'Java, Android',
-			description: 'I was responsible for Android developement of this project while doing my internship (July 2013 - Jan. 2014) at <a target="_blank" href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user friendly interfaces and real time information which includes stop locations, distances, number of bikes, spaces, estimated waiting time for a bike, timer, and the navigation from the current location to a stop, etc. The app leveages Google Maps and Google Street View API to provide users the best service.',
+			description: 'I was responsible for Android developement of this project while doing my internship (July 2013 - Jan. 2014) at <a target="_blank" href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user-friendly interfaces and real time information such as stops location, distance, navigation, number of available bikes, spaces, estimated waiting time, timer. The app leverages Google Maps and Google Street View API to provide users the best service.',
 			imgSrc: 'img/ubike',
 			projectLink: 'https://play.google.com/store/apps/details?id=com.chocolabs.ubike',
 			linkImg: 'https://developer.android.com/images/brand/en_app_rgb_wo_60.png',
