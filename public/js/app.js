@@ -37,7 +37,7 @@ var model = {
 		{
 			name: 'Let\'s Ubike (Ubike 讓我騎)',
 			tag: 'Java, Android',
-			description: 'I was responsible for Android developement of this project while doing my internship (July 2013 - Jan. 2014) at <a target="_blank" href="http://www.chocolabs.com/">CHOCOLABS</a>. The app is aim at providing user-friendly interfaces and real time information such as stops location, distance, navigation, number of available bikes, spaces, estimated waiting time, timer. The app leverages Google Maps and Google Street View API to provide users the best service.',
+			description: 'I was responsible for Android developement of this project while doing my internship (July 2013 - Jan. 2014) at <a target="_blank" href="http://www.chocolabs.com/">CHOCOLABS</a>. The app aims at providing user-friendly interfaces and real time information such as stops location, distance, navigation, number of available bikes, spaces, estimated waiting time, timer. The app leverages Google Maps and Google Street View API to provide users the best service.',
 			imgSrc: 'img/ubike',
 			projectLink: 'https://play.google.com/store/apps/details?id=com.chocolabs.ubike',
 			linkImg: 'https://developer.android.com/images/brand/en_app_rgb_wo_60.png',
